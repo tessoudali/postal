@@ -1,4 +1,4 @@
-FROM ruby:3.2.1-bullseye AS base
+FROM ruby:3.2.2-bullseye AS base
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN apt-get update \
