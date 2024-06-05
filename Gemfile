@@ -7,7 +7,7 @@ gem "bunny"
 gem "changey"
 gem "chronic"
 gem "clockwork"
-gem "dotenv-rails"
+gem "dotenv-rails", ">= 3.0.0"
 gem "dynamic_form"
 gem "encrypto_signo"
 gem "foreman"
@@ -25,16 +25,16 @@ gem "nifty-utils"
 gem "nilify_blanks"
 gem "nio4r"
 gem "puma"
-gem "rails", "= 6.1.7.3"
+gem "rails", "= 6.1.7.8"
 gem "resolv", "~> 0.2.1"
 gem "secure_headers"
-gem 'sentry-rails'
+gem 'sentry-rails', '>= 5.9.0'
 gem 'sentry-ruby'
 gem "turbolinks", "~> 5"
 
 group :development, :assets do
   gem "coffee-rails", "~> 5.0"
-  gem "jquery-rails"
+  gem "jquery-rails", ">= 4.6.0"
   gem "sass-rails"
   gem "uglifier", ">= 1.3.0"
 end
@@ -46,9 +46,9 @@ end
 group :development do
   gem "annotate"
   gem "database_cleaner", require: false
-  gem "factory_bot_rails", "~> 4.0", require: false
+  gem "factory_bot_rails", "~> 5.0", ">= 5.0.0", require: false
   gem "rspec", require: false
-  gem "rspec-rails", require: false
+  gem "rspec-rails", ">= 6.0.2", require: false
   gem "rubocop"
   gem "rubocop-rails"
 end
