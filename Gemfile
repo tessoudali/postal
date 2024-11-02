@@ -49,6 +49,6 @@ group :development do
   gem "factory_bot_rails", "~> 4.0", require: false
   gem "rspec", require: false
   gem "rspec-rails", require: false
-  gem "rubocop"
+  gem "rubocop", ">= 1.66.0"
   gem "rubocop-rails"
 end
