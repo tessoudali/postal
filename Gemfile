@@ -25,7 +25,7 @@ gem "nifty-utils"
 gem "nilify_blanks"
 gem "nio4r"
 gem "puma"
-gem "rails", "= 6.1.7.3"
+gem "rails", "= 7.1.5.2"
 gem "resolv", "~> 0.2.1"
 gem "secure_headers"
 gem 'sentry-rails'
@@ -45,7 +45,7 @@ end
 
 group :development do
   gem "annotate"
-  gem "database_cleaner", require: false
+  gem "database_cleaner", ">= 2.1.0", require: false
   gem "factory_bot_rails", "~> 4.0", require: false
   gem "rspec", require: false
   gem "rspec-rails", require: false
